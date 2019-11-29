@@ -4,7 +4,7 @@
 ## 使用
 ### 依赖
 ```
-implementation 'com.shouzhong:BaiduTTS:1.0.0'
+implementation 'com.shouzhong:BaiduTTS:1.0.3'
 ```
 ### 配置
 在AndroidManifest的application标签

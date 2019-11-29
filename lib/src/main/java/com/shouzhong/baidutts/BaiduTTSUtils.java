@@ -17,7 +17,7 @@ public class BaiduTTSUtils {
     private static final String TEXT_MODEL_NAME = "bd_etts_text.dat";
 
     public static SpeechSynthesizer getSpeechSynthesizer(Application app, boolean isMix) {
-        String appId = getValue(app, "BAIDU_TTS_AAP_ID");
+        String appId = getValue(app, "BAIDU_TTS_APP_ID");
         String appKey = getValue(app, "BAIDU_TTS_APP_KEY");
         String appSecret = getValue(app, "BAIDU_TTS_APP_SECRET");
         SpeechSynthesizer speechSynthesizer = SpeechSynthesizer.getInstance();
